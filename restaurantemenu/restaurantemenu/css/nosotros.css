@@ -1,0 +1,49 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.caja5 {
+    min-height: 100vh;
+    background-color: #00000024;
+}
+
+    .caja5:hover {
+        min-height: 100vh;
+        background-color: #0000007c;
+        transition: 0.5s;
+    }
+
+.fix {
+    background-image: url(../img/inicio/nosotrosback.jpg);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo-banner {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.imagencard {
+    width: 200px;
+}
+
+.imagencard2 {
+    width: 220px;
+}
+
+.imagencard3 {
+    width: 290px;
+}
+
+.imagencard4 {
+    width: 290px;
+}
+
+.card {
+    filter: grayscale(1);
+}
+
+    .card:hover {
+        filter: grayscale(0);
+    }

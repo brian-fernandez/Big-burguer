@@ -1,0 +1,72 @@
+﻿@media (max-width: 1024px) {
+    .imagencard {
+        width: 150px;
+    }
+
+    .imagencard2 {
+        width: 165px;
+    }
+
+    .imagencard3 {
+        width: 215px;
+    }
+
+    .imagencard4 {
+        width: 220px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+    .card-group {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .parrafo {
+        font-size: 12px;
+        padding: 10px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo-banner {
+        font-family: 'Rubik', sans-serif;
+        font-size: 3em;
+        font-weight: 400;
+    }
+
+    .contenedor {
+        padding: 10px 10px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .imagencard {
+        width: 100px;
+    }
+
+    .imagencard2 {
+        width: 100px;
+    }
+
+    .imagencard3 {
+        width: 100px;
+    }
+
+    .imagencard4 {
+        width: 100px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+    .titulo-banner {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+    }
+}

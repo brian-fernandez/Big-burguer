@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restaurantemenu", "restaurantemenu\restaurantemenu.csproj", "{69EB7A85-5FA2-4E4B-8912-0B4063E5A57B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{EAE8BE4A-D33F-45D2-998A-E3D6362A186C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69EB7A85-5FA2-4E4B-8912-0B4063E5A57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69EB7A85-5FA2-4E4B-8912-0B4063E5A57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69EB7A85-5FA2-4E4B-8912-0B4063E5A57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69EB7A85-5FA2-4E4B-8912-0B4063E5A57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE8BE4A-D33F-45D2-998A-E3D6362A186C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE8BE4A-D33F-45D2-998A-E3D6362A186C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE8BE4A-D33F-45D2-998A-E3D6362A186C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE8BE4A-D33F-45D2-998A-E3D6362A186C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A344DEE-7D62-43F3-9B96-A6EDF0EB89B0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,232 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body::-webkit-scrollbar {
+    width: 10px;
+    padding: 15px;
+    background-color: #eaaf37;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: black;
+    padding: 15px;
+}
+
+.contaner1-2 {
+    background-image: url(/img/inicio/314.jpg);
+    background-size: contain;
+    background-repeat: round;
+}
+
+.texto1 {
+    position: absolute !important;
+    top: 100px;
+    left: 200px;
+    z-index: 10;
+}
+
+.titulo-banner {
+    font-size: 90px;
+    color: #4d2c21;
+    line-height: 1;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+}
+
+    .titulo-banner strong {
+        font-size: 90px;
+        color: #ffffff;
+        line-height: 1;
+        text-align: center;
+        font-weight: 800;
+        font-family: 'Rubik', sans-serif;
+    }
+
+.parrafo-banner {
+    width: 70%;
+    color: #95601c;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+    z-index: 100000;
+}
+
+
+/*container 2*/
+
+.titulo2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.titulo3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    opacity: 0;
+}
+
+    .titulo3.active {
+        animation: 1.5s tituloprincipal forwards;
+    }
+
+@keyframes tituloprincipal {
+    0% {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.parrafo-1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+    .parrafo-1.active {
+        animation: 1.5s tituloprincipal forwards;
+    }
+
+.card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .19);
+    transition: 0.5s;
+    transform: translateY(-10px)
+}
+
+.card {
+    opacity: 0;
+}
+
+    .card.active {
+        animation: 2s cardtop forwards;
+    }
+
+@keyframes cardtop {
+    0% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.caja1 {
+    margin: 10px 60px;
+}
+
+    .caja1 p {
+        color: black;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+    }
+
+.imgcontainer3 {
+    width: 50px;
+    margin: 0px 30px;
+}
+
+    .imgcontainer3 img {
+        width: 50px;
+    }
+
+.titulos-container4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    color: #ffffff;
+    opacity: 0;
+}
+
+    .titulos-container4.active {
+        animation: 2s titlutocontan4 forwards;
+        opacity: 1;
+    }
+
+@keyframes titlutocontan4 {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(105px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.parrafo-container4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.9em;
+    color: black;
+    opacity: 0;
+}
+
+    .parrafo-container4.active {
+        animation: 2s parrafocontan4 forwards;
+    }
+
+@keyframes parrafocontan4 {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(100px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.caja5 {
+    min-height: 80vh;
+    background-color: #00000024;
+}
+
+    .caja5:hover {
+        min-height: 80vh;
+        background-color: #0000007c;
+        transition: 0.5s;
+    }
+
+.fix {
+    background-image: url(/img/inicio/habmruguesaback.jpeg);
+    min-height: 60vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parrafosuperior2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
