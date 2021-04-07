@@ -1235,9 +1235,10 @@ namespace restaurantemenu.enlaces
                 if (op.registrarpersonal(ci, nombre, apellidoPaterno, apellidoMaterno, contraseña, cargo, telefono, correo,habil))
                 {
                     op.añadircargo(cargo);
-                    
+                        string cis = Request.Params["id"];
                         MessageBox.Show("registro exitoso");
-                }
+                        Response.Redirect("~/enlaces/opciones.aspx?id=" + cis);
+                    }
                 else
                 {
                     Response.Write("<script>window.alert('Error Datos Repetidos existentes')</script>");

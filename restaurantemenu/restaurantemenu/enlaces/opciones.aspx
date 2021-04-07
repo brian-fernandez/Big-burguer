@@ -760,7 +760,7 @@
                 <div class="container jumbotron bg-light boxshadow"/>
                 <div class="form-group">
                     <label class="text-dark">C.I.:</label><asp:RequiredFieldValidator ID="RequiredFieldValidator9" class="alert alert-danger p-0" runat="server" ControlToValidate="txtci4" EnableClientScript="False" ErrorMessage="Ingrese Cedula de Identidad" ValidationGroup="2" CssClass="alert alert-danger p-0"></asp:RequiredFieldValidator><asp:RegularExpressionValidator ID="RegularExpressionValidator5" class="alert alert-danger" runat="server" ControlToValidate="txtci4" EnableClientScript="False" ErrorMessage="Ingrese solo Numeros" ValidationExpression="^[0-9]*$" ValidationGroup="2" CssClass="alert alert-danger p-0"></asp:RegularExpressionValidator>
-                    <asp:TextBox ID="txtci4" runat="server" CssClass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="txtci4" runat="server" CssClass="form-control" MaxLength="9"></asp:TextBox>
                 </div>
                 <div class="form-group">
                     <label class="text-dark">Nombre:</label><asp:RequiredFieldValidator ID="RequiredFieldValidator10" class="alert alert-danger" runat="server" ControlToValidate="txtnombre4" EnableClientScript="False" ErrorMessage="Ingrese Nombre" ValidationGroup="2" CssClass="alert alert-danger p-0"></asp:RequiredFieldValidator><asp:RegularExpressionValidator ID="RegularExpressionValidator6" class="alert alert-danger" runat="server" ErrorMessage="Ingrese solo letras" ControlToValidate="txtnombre4" EnableClientScript="False" ValidationExpression="[A-Za-z ]*" ValidationGroup="2" CssClass="alert alert-danger p-0"></asp:RegularExpressionValidator>

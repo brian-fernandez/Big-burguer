@@ -424,10 +424,17 @@ namespace restaurantemenu
                 lbok.Text = "EXITO";
 
             }
+            if (Request.QueryString["id"] == null)
+            {
+                Response.Redirect("~/inicio.aspx");
+            }
+            else
+            {
+                string ci = Request.QueryString["id"].ToString();
+                Response.Redirect("~/inicio.aspx?id=" + ci + "&idCliente=0");
+            }
 
-
-            /*Cambiar con id */
-            Response.Redirect("enlaces/login-cliente.aspx");
+           
 
 
         }
