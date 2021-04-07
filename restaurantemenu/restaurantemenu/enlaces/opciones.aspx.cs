@@ -1188,7 +1188,7 @@ namespace restaurantemenu.enlaces
 
 
 
-                string idventa = row.Cells[2].Text;
+                string idventa = row.Cells[1].Text;
 
                 Conexion op = new Conexion();
 
@@ -1202,8 +1202,8 @@ namespace restaurantemenu.enlaces
 
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
-                detalledeventa.DataSource = dt;
-                detalledeventa.DataBind();
+                detallelista.DataSource = dt;
+                detallelista.DataBind();
                 dato.Close();
             }
         }
@@ -1228,13 +1228,15 @@ namespace restaurantemenu.enlaces
                 telefono = txttelefono4.Text;
                 correo = txtcorreo4.Text;
                 contraseña = txtcontraseña4.Text;
+                    string habil = "habilitado";
 
                 string cargo = op.obtener_id_cargo(idCargo);
 
-                if (op.registrarpersonal(ci, nombre, apellidoPaterno, apellidoMaterno, contraseña, cargo, telefono, correo))
+                if (op.registrarpersonal(ci, nombre, apellidoPaterno, apellidoMaterno, contraseña, cargo, telefono, correo,habil))
                 {
                     op.añadircargo(cargo);
-                    Response.Write("<script>window.alert('Datos Ingresados Correctamente')</script>");
+                    
+                        MessageBox.Show("registro exitoso");
                 }
                 else
                 {

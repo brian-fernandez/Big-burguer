@@ -16,3 +16,9 @@ C:\Users\hp\Desktop\restaurantemenu\Biblioteca\obj\Debug\Biblioteca.csprojAssemb
 C:\Users\hp\Desktop\restaurantemenu\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
 C:\Users\hp\Desktop\restaurantemenu\Biblioteca\obj\Debug\Biblioteca.dll
 C:\Users\hp\Desktop\restaurantemenu\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\brian\Desktop\sho\restaurantemenu\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\brian\Desktop\sho\restaurantemenu\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\brian\Desktop\sho\restaurantemenu\Biblioteca\obj\Debug\Biblioteca.csprojAssemblyReference.cache
+C:\Users\brian\Desktop\sho\restaurantemenu\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\brian\Desktop\sho\restaurantemenu\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\brian\Desktop\sho\restaurantemenu\Biblioteca\obj\Debug\Biblioteca.pdb

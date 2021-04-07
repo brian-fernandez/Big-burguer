@@ -98,7 +98,7 @@ namespace restaurantemenu
             else
             {
                 string ci = Request.QueryString["id"].ToString();
-                Response.Redirect("~/WebForm1.aspx?id=" + ci);
+                Response.Redirect("~/WebForm1.aspx?id=" + ci + "&idCliente=0");
             }
         }
 
@@ -106,12 +106,12 @@ namespace restaurantemenu
         {
             if (Request.QueryString["id"] == null)
             {
-                Response.Redirect("~/WebForm1.aspx");
+                Response.Redirect("~/enlaces/nosotros.aspx");
             }
             else
             {
                 string ci = Request.QueryString["id"].ToString();
-                Response.Redirect("~/WebForm1.aspx?id=" + ci);
+                Response.Redirect("~/enlaces/nosotros.aspx?id=" + ci);
             }
         }
 

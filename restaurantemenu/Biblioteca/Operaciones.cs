@@ -327,12 +327,12 @@ namespace Biblioteca
 
         // Registro de personal
 
-        public bool registrarpersonal(string ci, string nombre, string apellidop, string apellidom, string contraseña, string id_cargo, string telefono, string correo)
+        public bool registrarpersonal(string ci, string nombre, string apellidop, string apellidom, string contraseña, string id_cargo, string telefono, string correo, string habilitado)
         {
             Conexion cn = new Conexion();
             try
             {
-                string sql = "Insert into Personal values('" + ci + "','" + nombre + "','" + apellidop + "','" + apellidom + "','" + contraseña + "','" + id_cargo + "','" + telefono + "','" + correo + "')";
+                string sql = "Insert into Personal values('" + ci + "','" + nombre + "','" + apellidop + "','" + apellidom + "','" + contraseña + "','" + id_cargo + "','" + telefono + "','" + correo + "', '"+habilitado+"')";
                 SqlCommand cmd = new SqlCommand(sql, cn.getConexion());
                 int n = cmd.ExecuteNonQuery();
                 return n > 0;
